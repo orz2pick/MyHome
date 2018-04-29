@@ -42,7 +42,7 @@
 <br>
 <center>
     <h1>CHENG LONG's Home</h1>
-    <h3>----All private info. are encoded by RSA.</h3>
+    <h3>----All private info. are encoded by <br>RSA[ e = 0x10025, N = 0x24b178be815144e537014a91a04eecd2146bb61cd17a065a49e20e36f32d6fb5d ].</h3>
 </center>
 
 <meta charset='utf-8'/>
@@ -54,10 +54,23 @@
 
 <!--This is Jave Script Functions-->
 <script>
+    function check_hex(str) {
+        var len = str.length;
+        var S=0;
+        for(var i=2;i<len;i++)
+            S=( S+str[i].charCodeAt() )%121;
+        return S
+    }
+    function check_od(str) {
+        var S=0;
+        for(var i=0;i<str.length;i++)
+            S=( S+str[i].charCodeAt() )%121;
+        return S
+    }
     function myFunction() {
-        var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母大写，10进制不加）", "0xAA08E");
-        if (str == "111" || str == "222") {
-            alert("真的是没办法呢，信息拿去")
+        var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母小写，10进制不加）", "0xaa08e");
+        if ((str[0]=='0' && str[1]=='x' && check_hex(str)==26)||check_od(str)==11) {
+            alert("真的是没办法呢，你可能猜对了，信息拿去")
         }
         else
             alert("大丈夫，尔还需继续修炼呢～")
@@ -73,14 +86,22 @@
 <strong>
     <h2><p>Personal Information：</p></h2>
 </strong>
-<img src="Photos/sa_i.jpg" align="right">
-<p>Age : 12</p>
-<p>Student ID : 415</p>
-<p>Name : </p>
-<p>The girl i love : </p>
-<p>Height : 175</p>
-<p>School : Shcool</p>
-<button type="submit" onclick="myFunction()">哈哈哈，吾已破解了你のSecurity System!</button>
+<img src="Photos/sa_i.jpg" width="36%"  align="right">
+<p>Age : 1c 29 b2 bc bf e6 ae 2a 6a c8 01 99 51 6c 44 13 dd af 22 80 ca b7 ec f8 d5 b3 24 a2 3b ef 6a cc d
+</p>
+<p>Student ID : 60 e4 12 a9 1b de e7 fc d4 34 89 61 32 73 fb ed 5c 0d 8b 1f d8 e9 4a dc 18 65 58 bf 2d c7 d1 cf
+</p>
+<p>Name : 2d 8c 83 be 41 4b b0 d5 b6 59 6f 36 15 f9 ff 57 cc a8 5b dc 12 3b 0a 6c ca d1 7f 0f 1d d9 9e 02
+</p>
+<p>The girl i love : b7 2e 23 ad 7e 94 31 93 98 53 a3 29 b9 31 3d 79 51 96 11 c9 34 1d de 9f 4e 86 e3 29 d5 c4 23 4b
+</p>
+<p>Height : 11 80 15 82 05 41 b6 ed 87 da 50 04 ed 44 25 6f f9 4e dd 77 99 9c 59 c1 d7 f3 af a1 7b fa 45 e3 b
+</p>
+<p>School : 20 86 f7 65 cc 07 9b 25 a8 42 27 62 ec 8d c3 00 cd 3c df 36 44 20 ed 75 8f 7a 4e b7 2e 1c 98 ce a
+</p>
+<br>
+<center><button type="submit" onclick="myFunction()">哈哈哈，吾已破解了你のSecurity System!</button></center><br>
+<br>
 
 <!--This is current state of me-->
 <hr>
@@ -90,7 +111,7 @@ Now : The Monitor of Information & Computation Science Class
 <!--This is my blogs-->
 <hr>
 <h2>Blogs:</h2>
-<a href="PDFs/Pollard’s%20p翻譯版本.docx" ><i class="arrow-down"><li>Pollard's p-1 algorithm</i></a></li>
+<a href="PDFs/p-1%20algorithm.zip" ><i class="arrow-down"><li>Pollard's p-1 algorithm</i></a></li>
 <a href="PDFs/Fe.html" ><i class="arrow-down"><li>Fermat's Little Theorem</li></i></a>
 
 
