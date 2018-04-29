@@ -1,18 +1,106 @@
 <html>
-<br><br>
-<center>This is HOME PAGE of Cheng Long
-</center>
-    <br>
+<head>
+    <title> Jackie Chan</title>
+    <style type="text/css">
+        p {
+            text-indent: 2em;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #herder {
+            height: 50px;
+            background: blue;
+        }
+
+        .main-left {
+            width: 30%;
+            height: 800px;
+
+            float: left;
+        }
+
+        .main-right {
+            width: 70%;
+            height: 800px;
+
+            float: right;
+        }
+
+        #footer {
+            clear: both;
+            height: 50px;
+            background: gray;
+        }
+    </style>
+</head>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <body>
-<hr>
-<script>
-    document.write('Current Time: ',Date());
-    </script>
+<br>
+<center>
+    <h1>CHENG LONG's Home</h1>
+    <h3>----All private info. are encoded by RSA.</h3>
+</center>
 
+<meta charset='utf-8'/>
+
+<meta http-equiv='Content-Language' content='zh'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+
+<br>
+
+<!--This is Jave Script Functions-->
+<script>
+    function myFunction() {
+        var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母大写，10进制不加）", "0xAA08E");
+        if (str == "111" || str == "222") {
+            alert("真的是没办法呢，信息拿去")
+        }
+        else
+            alert("大丈夫，尔还需继续修炼呢～")
+    }
+
+    document.write('Current Time: ', Date());
+
+</script>
+
+
+<!--This is enccripted personal Information -->
 <hr>
-Hobbies: GO game, <strong>kidding</strong>, Anime..etc
+<strong>
+    <h2><p>Personal Information：</p></h2>
+</strong>
+<img src="Photos/sa_i.jpg" align="right">
+<p>Age : 12</p>
+<p>Student ID : 415</p>
+<p>Name : </p>
+<p>The girl i love : </p>
+<p>Height : 175</p>
+<p>School : Shcool</p>
+<button type="submit" onclick="myFunction()">哈哈哈，吾已破解了你のSecurity System!</button>
+
+<!--This is current state of me-->
 <hr>
 Now : The Monitor of Information & Computation Science Class
+
+
+<!--This is my blogs-->
+<hr>
+<h2>Blogs:</h2>
+<a href="PDFs/Pollard’s%20p翻譯版本.docx" ><i class="arrow-down"><li>Pollard's p-1 algorithm</i></a></li>
+<a href="PDFs/Fe.html" ><i class="arrow-down"><li>Fermat's Little Theorem</li></i></a>
+
+
+<!--This is animes I like-->
+<hr>
+<h2>Animes I like</h2>
+<a href="https://www.bilibili.com/video/av8962077?from=search&seid=777094150254592580" target="_blank"><li>I-GO Youngster</li></a>
+
+<a href="http://v.youku.com/v_show/id_XMzAyNDA0MDI0.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ&refer=baiduald1705" ><li>ヒカルの碁，中文意义为“光的围棋”</li><i class="arrow-down"></i></a>
+
+
 </body>
 </html>

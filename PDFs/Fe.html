@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title> Fermart</title>
+        <style type="text/css">
+            p {
+                text-indent: 2em;
+            }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #herder {
+            height: 50px;
+            background: blue;
+        }
+        
+        .main-left {
+            width: 30%;
+            height: 800px;
+            
+            float: left;
+        }
+        
+        .main-right {
+            width: 70%;
+            height: 800px;
+            
+            float: right;
+        }
+        
+        #footer {
+            clear: both;
+            height: 50px;
+            background: gray;
+        }
+        </style>
+    </head>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <body>
+        <br>
+        <center>
+            <h1>Fermat’s Little Theorem<h1>
+            
+        </center>
+        
+        <meta charset='utf-8'/>
+        
+        <meta http-equiv='Content-Language' content='zh'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        
+        <br>
+        
+        <!--This is Jave Script Functions-->
+        <script>
+            function myFunction() {
+                var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母大写，10进制不加）", "0xAA08E");
+                if (str == "111" || str == "222") {
+                    alert("真的是没办法呢，信息拿去")
+                }
+                else
+                alert("大丈夫，尔还需继续修炼呢～")
+            }
+
+            </script>
+        
+        <p>
+            Theorem: Let p be a prime and a in Z such that p 不整除 a. Then,a^(p-1) ≡1 mod p.
+        </p>
+        
+   <p>     Proof:Consider the following two sets of equivalence classes :</p>
+   <p>     A = {[a], [2a], [3a], [4a], . . . , [(p − 1)a]}</p>
+   <p>     B={[1],[2],[3],[4],...,[p−1]}=Zp −{[0]}</p>
+   <p>     First, we want to show that A = B.</p>
+   <p>     Clearly, A ⊆ B since p devides a and p divides none of 1, 2, 3, . . . , p − 1.</p>
+   <p>     Now, suppose that ∃ r, s in N such that 1 ≤ r ≤ s ≤ p − 1 and [ra] = [sa].Then,</p>
+   <p>    <center> [ra] − [sa] = 0   </center></p>
+   <p>    <center> r[a] − s[a] = 0 </center> </p>
+   <p>    <center> (r−s)[a] = 0    </center> </p>
+   <p>     r−s=0,since[a] not congruent(同余) to 0 modp(sincep a)</p>
+   <p>     But,since r≤p and s≤p, r−s≡0（ modp） ⇒r=s.</p>
+   <p>     So, [a], [2a], [3a], · · · , [(p − 1)a] are all different mod p, which means that the cardinality of − 1.</p>
+   <p>     And, since ♯A = p − 1, ♯B = p − 1 and A ⊆ B, we can conclude that A = B,</p><p>that is the equivalence clasA are congruent to the equivalence classes [等价类] of B under a certain rearrangement.</p>
+   <p>     Hence,</p>
+   <p>     a∗2a∗3a∗···∗(p−1)a = 1∗2∗3∗···∗p−1 （mod p）</p>
+   <p>     a^(p-1) ∗(p−1)! = (p−1)!</p>
+   <p>     a^(p-1) =1,since (p−1)!不等于0（mod p）.</p>
+        
+
+        
+            </body>
+            </html>
