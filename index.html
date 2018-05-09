@@ -72,10 +72,10 @@
     {
         var n = prompt("那你就写下私钥d吧^-^（16进制加0X且字母小写，10进制不加）", "0xaa08e");
 
-        var numArr = [];
+        var numArr = "N is"+n+". Factors are: ";
         var prime = 1;
-        numArr.push("N is"+n+". ");
-        numArr.push("Factors are: ");
+        // numArr.push("N is"+n+". Factors are: ");
+
         for(var i=2;i<Math.floor(Math.sqrt(n));i++)
         {
             if(n%i==0)
@@ -86,7 +86,8 @@
                         f=0;
                 if(f==1)
                 {
-                    numArr.push(i);
+                    numArr=numArr+" "+i+" ";
+                    //numArr.push(i);
                     prime = 0;
                 }
 
