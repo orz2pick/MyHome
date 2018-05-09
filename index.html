@@ -68,7 +68,20 @@
             S = (S + str[i].charCodeAt()) % 121;
         return S
     }
+    function Factor()
+    {
+        var n = document.getElementById(“num”).value;
+        for(var i=0;i<n;i++)
+        {
+            if(n%i==0)
+            {
+                alert(i);
+                break;
+            }
 
+        }
+        alert("OK")
+    }
     function myFunction() {
         var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母小写，10进制不加）", "0xaa08e");
         if ((str[0] == '0' && str[1] == 'x' && check_hex(str) == 26) || check_od(str) == 11) {
@@ -106,6 +119,12 @@
 <br>
 <center>
     <button type="submit" onclick="myFunction()">哈哈哈，吾已破解了你のSecurity System!</button>
+</center>
+<br>
+<br>
+<br>
+<center>
+    <button type="submit" onclick="Factor()">分解吧，整数</button>
 </center>
 <br>
 <br>
