@@ -68,19 +68,35 @@
             S = (S + str[i].charCodeAt()) % 121;
         return S
     }
-    function Factor()
+    function MyFactor()
     {
-        var n = document.getElementById(“num”).value;
-        for(var i=0;i<n;i++)
+        var n = prompt("那你就写下私钥d吧^-^（16进制加0X且字母小写，10进制不加）", "0xaa08e");
+
+        var numArr = [];
+        var prime = 1;
+        numArr.push("N is"+n+". ");
+        numArr.push("Factors are: ");
+        for(var i=2;i<Math.floor(Math.sqrt(n));i++)
         {
             if(n%i==0)
             {
-                alert(i);
-                break;
-            }
+                var f=1;
+                for(var j=2;j<Math.floor(Math.sqrt(i))+1;j++)
+                    if(i%j==0)
+                        f=0;
+                if(f==1)
+                {
+                    numArr.push(i);
+                    prime = 0;
+                }
 
+            }
         }
-        alert("OK")
+        if(prime==1)
+            alert("N is "+n+",and it's a prime number. ^-^ ");
+        else
+            alert(numArr);
+
     }
     function myFunction() {
         var str = prompt("那你就写下私钥d吧^-^（16进制加0X且字母小写，10进制不加）", "0xaa08e");
@@ -124,7 +140,7 @@
 <br>
 <br>
 <center>
-    <button type="submit" onclick="Factor()">分解吧，整数</button>
+    <button type="submit" onclick="MyFactor()">分解吧，整数</button>
 </center>
 <br>
 <br>
