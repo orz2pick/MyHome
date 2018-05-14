@@ -76,12 +76,12 @@
         var prime = 1;
         // numArr.push("N is"+n+". Factors are: ");
 
-        for(var i=2;i<Math.floor(Math.sqrt(n));i++)
+        for(var i=2;i<=Math.floor(Math.sqrt(n))+1;i++)
         {
             if(n%i==0)
             {
                 var f=1;
-                for(var j=2;j<Math.floor(Math.sqrt(i))+1;j++)
+                for(var j=2;j<i;j++)
                     if(i%j==0)
                         f=0;
                 if(f==1)
