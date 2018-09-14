@@ -1,3 +1,25 @@
-abandon,美[ə'bændən]英 [ə'bændən] ,放弃；抛弃；废弃；遗弃
-abate,美[ə'beɪt]英 [ə'beɪt] ,减少
-abbreviation,美[əˌbri:vi'eɪʃn]英 [əˌbri:vi'eɪʃn] ,缩写；【数学】约分；【音乐】略号；〔数〕约分
+abandon,美[ə'bændən]英[ə'bændən],放弃；抛弃；废弃；遗弃
+abate,美[ə'beɪt]英[ə'beɪt],减少
+abbreviation,美[əˌbri:vi'eɪʃn]英[əˌbri:vi'eɪʃn],缩写；【数学】约分；【音乐】略号；〔数〕约分
+abdomen,美['æbdəmən]英['æbdəmən],肚子；下腹部；【虫类】腹部
+ability,美[ə'bɪləti]英n.能力；能够；才能；能干网络才干；技能；本领Thesystemhastheabilitytorunmorethanoneprogramatthesametime.该系统能够同时运行一个以上的程序。Everyonehastherighttogoodmedicalcareregardlessoftheirabilitytopay.无论支付能力如何，每个人都有权得到良好的医疗保健。Agentleformofexercisewillincreaseyourabilitytorelax.和缓的运动锻炼会提高自我放松的能力。Almosteveryonehassomemusicalability.几乎人人都有一些音乐才能。Hewasamanofextraordinaryabilities.他才干卓著。studentsofmixedabilities能力各不相同的学生Awomanofherabilitywilleasilyfindajob.有她那样才能的妇女找工作不难。Itrytodomyjobtothebestofmyability(=aswellasIcan).我尽全力做好我的工作。abnormal,美[æbˈnɒrm(ə)l]英[æbˈnɔː(r)m(ə)l],畸形的
+abolish,美英[ə'bɒlɪʃ]v.废除；消灭；撤销网络取消；废止；革除Thistaxshouldbeabolished.这种税应该取消。aboriginal,美[ˌæbəˈrɪdʒən(ə)l]英n.土著(居民)；土生生物；澳大利亚土著adj.土著的；原始的网络原住民；土著居民；原来的theissueofAboriginallandrights澳大利亚土著土地权问题theaboriginalpeoplesofCanada加拿大土著aboriginalart/culture土著艺术╱文化abort,美[əˈbɔː(r)t]英[ə'bɔːt],中止；流产；放弃；堕胎
+abound,美[ə'baʊnd]英[ə'baʊnd],大量存在；有许多
+abroad,美[ə'brɔ:d]英[ə'brɔ:d],国外；海外；出国；到国外
+absence,美['æbsəns]英['æbs(ə)ns],缺席；缺乏；不在；不存在
+absent,美英adj.没有；无；离开；缺勤的v.使缺席网络缺席的；不在；不在场的tobeabsentfromwork缺勤Lovewastotallyabsentfromhischildhood.他童年时根本没有受到疼爱。anabsentexpression心不在焉的神情Hehadabsentedhimselffromtheofficefortheday.这一天他没有去办公室上班。absenteeism,美[ˌæbsənˈtiˌɪzəm]英[ˌæbs(ə)nˈtiːˌɪz(ə)m],(故意)旷工；旷课
+absorb,美[əb'sɔ:b]英[əb'sɔ:b],吸收；吸附；吸引；吸取
+absorber,美英[əb'sɔːbə]n.吸收器；减震器网络吸收体；吸收塔；吸收剂abstract,美[æb'strækt]英[æb'strækt],提取；抽取；把…抽象出；分离
+abstraction,美[æb'strækʃən]英[æb'strækʃ(ə)n],抽象；提取；抽取；抽象概念
+abundance,美[ə'bʌndəns]英n.丰度；丰富；大量；富足网络充裕；充足；丰富充裕Fruitandvegetablesgrewinabundanceontheisland.该岛盛产水果和蔬菜。Fruitandvegetablesgrewinabundanceontheisland.该岛盛产水果和蔬菜。abuse,美[ə'bjuz]英[ə'bjuːz],滥用；虐待；辱骂；伤害
+academic,美[.ækə'demɪk]英[.ækə'demɪk],教学的；学术性的（与实践性、技术性相对）；学习良好的；纯理论的
+academic,美[.ækə'demɪk]英[.ækə'demɪk],教学的；学术性的（与实践性、技术性相对）；学习良好的；纯理论的
+academic,美[.ækə'demɪk]英[.ækə'demɪk],教学的；学术性的（与实践性、技术性相对）；学习良好的；纯理论的
+circles,academic,美[.ækə'demɪk]英[.ækə'demɪk],教学的；学术性的（与实践性、技术性相对）；学习良好的；纯理论的
+degree,美[dɪ'ɡri]英[dɪ'ɡriː],度；程度；度数（温度单位）；（大学）学位
+academy,美[ə'kædəmi]英[ə'kædəmi],学会；专科院校；（苏格兰）中等学校；（美国）私立学校
+accelerate,美[ək'selə.reɪt]英[ək'seləreɪt],加快；加速
+accept,美[ək'sept]英[ək'sept],承认；接纳；同意；认可
+acceptable,美[ək'septəb(ə)l]英[ək'septəb(ə)l],（社会上）认同的；可接受的；令人满意的；可容许的
+accepting,accesible,网络可得到的；容易使用的；可达性access,美[ˈækˌses]英[ˈækses],进入；〈正式〉到达；【IT】获得或储存(电脑文件)
+accessible,美[ək'sesəb(ə)l]英[ək'sesəb(ə)l],可到达的；可接近的；可进入的；可使用的
